@@ -5,7 +5,8 @@
 }
 
 .headerNameStyle {
-    padding: 0 17px 28px;
+    /* padding: 0 17px 28px; */
+    padding-top: 16px;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
@@ -16,4 +17,15 @@
 .textSupNew {
     color: #FF9DAE;
     font-weight: bold;
+}
+
+.headerLogo {
+    width: 53px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.headerContainer {
+    margin-left: 0px;
+    margin-right: 0px;
 }
