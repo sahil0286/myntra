@@ -8,7 +8,7 @@ import { AiOutlineHeart } from "react-icons/ai"
 const Header = () => {
   return (
     <>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary headerShadow">
+        <nav className="navbar navbar-expand-lg headerShadow">
             <div className="container-fluid headerContainer">
                 <a className="navbar-brand d-flex align-items-center mb-2 mb-lg-0 text-decoration-none headerLogo" href="/">
                     <img src={logo} alt="logo" />
