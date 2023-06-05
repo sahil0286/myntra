@@ -6,13 +6,13 @@ const Header = () => {
   return (
     <>
     <header className="p-3 header-shadow">
-    <div className="container">
+    <div className="container headerContainer">
       <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
+        <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none headerLogo">
           <img src={logo} alt="logo" />
         </a>
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-md-0">
-          <li><a href="/" className="nav-link px-2  headerNameStyle">MEN</a></li>
+          <li><a href="/" className="nav-link px-2 headerNameStyle">MEN</a></li>
           <li><a href="/" className="nav-link px-2 headerNameStyle">WOMEN</a></li>
           <li><a href="/" className="nav-link px-2 headerNameStyle">KIDS</a></li>
           <li><a href="/" className="nav-link px-2 headerNameStyle">HOME & LIVING</a></li>
