@@ -27,7 +27,7 @@ const Header = () => {
                 </ul>
                 <form className="d-flex align-items-center navbar-nav mb-2 mb-lg-0" role="search">
                     <input className="form-control me-2 searchBar" type="search" placeholder="🔍        Search for products, brands and more" aria-label="Search"/>
-                    <ul className="nav col-lg-auto my-2 justify-content-center my-md-0 text-small mb-lg-0">
+                    <ul className="nav col-lg-auto my-2 justify-content-center my-md-0 text-small mb-lg-0" style={{backgroundColor:"white"}}>
                         <li><a href="/" className="nav-link text-secondary mx-2 mt-2"><FaRegUser className='bi d-block mx-auto' style={{fontSize:"18px"}}/><span className='headerIcon' style={{fontSize:"12px"}}>Profile</span></a></li>
                         <li><a href="/" className="nav-link text-secondary mx-2 mt-2"><AiOutlineHeart className='bi d-block mx-auto' style={{fontSize:"20px"}}/><span className='headerIcon'>Wishlist</span></a></li>
                         <li><a href="/" className="nav-link text-secondary mx-2 mt-2"><HiOutlineShoppingBag className='bi d-block mx-auto' style={{fontSize:"21px"}}/><span className='headerIcon'>Bag</span></a></li>
