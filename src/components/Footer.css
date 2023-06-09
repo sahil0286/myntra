@@ -1,0 +1,15 @@
+.footerTitle {
+    font-size: 12px;
+    text-decoration: none;
+    color: #282c3f;
+}
+
+.footerLink {
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+}
