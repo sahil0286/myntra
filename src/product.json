@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Roker",
+        "image": "./images/m1.jpg",
+        "category": "men",
+        "subcategory": "tshirts",
+        "brand": "Rx",
+        "price": "100",
+        "color": "red",
+        "discount": "10"
+    },
+    {
+        "id": 2,
+        "name": "Hero",
+        "image": "./images/m2.jpg",
+        "category": "men",
+        "subcategory": "tshirts",
+        "brand": "Ry",
+        "price": "200",
+        "color": "green",
+        "discount": "20"
+    },
+    {
+        "id": 3,
+        "name": "Roker x",
+        "image": "./images/m3.jpg",
+        "category": "men",
+        "subcategory": "long tshirts",
+        "brand": "Rx",
+        "price": "300",
+        "color": "black",
+        "discount": "30"
+    },
+    {
+        "id": 4,
+        "name": "Hero x",
+        "image": "./images/m4.jpg",
+        "category": "men",
+        "subcategory": "long tshirts",
+        "brand": "Ry",
+        "price": "400",
+        "color": "gold",
+        "discount": "40"
+    },
+    {
+        "id": 5,
+        "name": "Shine",
+        "image": "./images/w1.jpg",
+        "category": "women",
+        "subcategory": "kurta set",
+        "brand": "Wy",
+        "price": "500",
+        "color": "gold",
+        "discount": "50"
+    },
+    {
+        "id": 6,
+        "name": "Queen",
+        "image": "./images/w2.jpg",
+        "category": "women",
+        "subcategory": "kurta set",
+        "brand": "Wx",
+        "price": "600",
+        "color": "yellow",
+        "discount": "60"
+    },
+    {
+        "id": 7,
+        "name": "Kalini",
+        "image": "./images/w3.jpg",
+        "category": "women",
+        "subcategory": "kurta",
+        "brand": "Wy",
+        "price": "700",
+        "color": "green",
+        "discount": "70"
+    },
+    {
+        "id": 8,
+        "name": "Singli",
+        "image": "./images/w4.jpg",
+        "category": "women",
+        "subcategory": "kurta",
+        "brand": "Wx",
+        "price": "800",
+        "color": "pink",
+        "discount": "80"
+    }
+]
