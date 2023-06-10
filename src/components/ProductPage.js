@@ -64,8 +64,16 @@ const ProductPage = () => {
   return (
     <>
     <Header/>
+    {/* <div className="row main">
+        <div className="col-2">
+            left
+        </div>
+        <div className="col-10">
+            right
+        </div>
+    </div> */}
       <div className="row main">
-        <div className="col-2 left">
+        <div className="col-2 left borderRightTop">
           <div className="filter-options">
             <div className="filter-option">
               <span className='filterHeader'>CATEGORY</span>
@@ -85,6 +93,7 @@ const ProductPage = () => {
                     </label>
                 </li>
             </div>
+            <hr />
             <div className="filter-option">
               <span className='filterHeader'>SUBCATEGORY</span>
               {category === 'men' && (
@@ -96,12 +105,12 @@ const ProductPage = () => {
                 </li>
                 <li style={{listStyleType: "none"}}>
                   <label>
-                    <input className="filterLabel"  type="radio" name="subcategory" value="tshirts" checked={subcategory === 'tshirts'} onChange={handleSubcategoryChange} />T-Shirts
+                    <input className="filterLabel"  type="radio" name="subcategory" value="T-Shirts" checked={subcategory === 'T-Shirts'} onChange={handleSubcategoryChange} />T-Shirts
                   </label>
                 </li>
                 <li style={{listStyleType: "none"}}>
                   <label>
-                    <input className="filterLabel"  type="radio" name="subcategory" value="long tshirts" checked={subcategory === 'long tshirts'} onChange={handleSubcategoryChange} />
+                    <input className="filterLabel"  type="radio" name="subcategory" value="Long T-Shirts" checked={subcategory === 'Long T-Shirts'} onChange={handleSubcategoryChange} />
                     Long T-Shirts
                   </label>
                 </li>
@@ -117,19 +126,20 @@ const ProductPage = () => {
                 </li>
                   <li style={{listStyleType: "none"}}>
                   <label>
-                    <input className="filterLabel"  type="radio" name="subcategory" value="kurta set" checked={subcategory === 'kurta set'} onChange={handleSubcategoryChange} />
+                    <input className="filterLabel"  type="radio" name="subcategory" value="Kurta set" checked={subcategory === 'Kurta set'} onChange={handleSubcategoryChange} />
                     Kurta Set
                   </label>
                   </li>
                   <li style={{listStyleType: "none"}}>
                   <label>
-                    <input className="filterLabel" type="radio" name="subcategory" value="kurta" checked={subcategory === 'kurta'} onChange={handleSubcategoryChange} />
+                    <input className="filterLabel" type="radio" name="subcategory" value="Kurta" checked={subcategory === 'Kurta'} onChange={handleSubcategoryChange} />
                     Kurta
                   </label>
                   </li>
                 </>
               )}
             </div>
+            <hr />
             <div className="filter-option">
               <span className='filterHeader'>BRAND</span>
               {category !== '' && (
@@ -177,6 +187,7 @@ const ProductPage = () => {
                 </>
               )}
             </div>
+            <hr />
             <div className="filter-option">
               <span className='filterHeader'>COLOR</span>
               {category === 'men' && (
@@ -242,10 +253,12 @@ const ProductPage = () => {
                 </>
                 )}
             </div>
+            <hr />
             <div className="filter-option">
               <span className='filterHeader'>MAX PRICE</span>
-              <input type="text" style={{borderRadius:"2px",marginLeft:"0px"}} placeholder="Max Price" value={price} onChange={handlePriceChange} />
+              <input type="text" style={{borderRadius:"3px",marginLeft:"0px", border:"1px solid black"}} placeholder=" Max Price" value={price} onChange={handlePriceChange} />
             </div>
+            <hr />
             <div className="filter-option">
               <span className='filterHeader'>DISCOUNT</span>
               <select value={discount} style={{borderRadius:"2px",marginLeft:"0px"}} onChange={handleDiscountChange}>
@@ -260,14 +273,15 @@ const ProductPage = () => {
                 <option value="80">80% and above</option>
               </select>
             </div>
-            <button  onClick={handleResetFilters} style={{borderRadius:"20px"}}>Reset Filters</button>
+            <hr />
+            <button  onClick={handleResetFilters} style={{borderRadius:"20px", border:"1px solid gray"}}>Reset Filters</button>
           </div>
         </div>
-        <div className="col-10 right">
-          <div className="row row-cols-4">
+        <div className="col-10 right borderTop">
+          <div className="row row-cols-4" style={{margin:"30px"}}>
             {filteredProducts.map((product) => (
               <div className="col" key={product.id}>
-                <Product image={product.image} subcategory={product.subcategory} brand={product.brand} name={product.name} price={product.price} discount={product.discount} />
+                <Product image={product.image} subcategory={product.subcategory} brand={product.brand} color={product.color} name={product.name} price={product.price} discount={product.discount} />
               </div>
             ))}
           </div>
