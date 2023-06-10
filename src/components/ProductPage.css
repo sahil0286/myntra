@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.filter-options {
+    padding: 20px;
+  }
+  
+  .filter-option {
+    margin-bottom: 10px;
+  }
+  
+  .filter-option span {
+    font-weight: bold;
+  }
+  
+  .filter-option label {
+    margin-right: 10px;
+  }
+  
+  .filter-option input[type="text"] {
+    padding: 5px;
+    width: 100px;
+    margin-left: 10px;
+  }
+  
+  .filter-option select {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .filter-options button {
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  
+  .row-cols-4 > .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 10px;
+  }
+  
+  /* Add any additional styling as needed */
+  
+  .filterHeader {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 18px;
+    clear: both;
+    color: #282c3f;
+    display: block;
+  }
