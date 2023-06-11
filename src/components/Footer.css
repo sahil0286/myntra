@@ -9,6 +9,13 @@
     color: #282c3f;
 }
 
+@media (max-width: 576px) {
+    .footerTitle {
+        font-size: 10px;
+      
+    }
+  }
+
 .footerLink {
     color: #696b79;
     display: block;
@@ -18,3 +25,9 @@
     cursor: pointer;
     line-height: normal;
 }
+
+  @media (max-width: 576px) {
+    .footerLink {
+        font-size: 10px;
+    }
+  }
