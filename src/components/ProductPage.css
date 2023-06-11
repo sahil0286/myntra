@@ -52,8 +52,25 @@
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
-    margin: 0 0 18px;
+    margin: 0 0 10px;
     clear: both;
     color: #282c3f;
     display: block;
+  }
+  .filterLabel {
+    font-weight: 700;
+    clear: both;
+    font-size: 14px;
+    color: #282c3f;
+  }
+
+  .borderRightTop {
+    border: none;
+    border-right: 1px solid #EDEBEF;
+    border-top: 1px solid #EDEBEF;
+  }
+  
+  .borderTop {
+    border: none;
+    border-top: 1px solid #EDEBEF;
   }

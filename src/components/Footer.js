@@ -12,7 +12,7 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <>
-    <div className='container'>
+    <div className='container footerBackgroundColor'>
     <footer className="pt-5">
     <div className="row">
       <div className="col-6 col-md-2 mb-2">
@@ -73,11 +73,11 @@ const Footer = () => {
       <div className="col-6 col-md-4 mb-2">
         <ul className="nav flex-column">
           <li className="row nav-item mb-2">
-            <img className='col-3'style={{height:"40px"}} src={o}  alt={o}/>
+            <img className='col-3'style={{height:"45px"}} src={o}  alt={o}/>
             <p className='col-9 footerLink'><span style={{fontWeight:"bold"}}>100% ORIGINAL</span> guarantee for all products at myntra.com</p>
           </li>
           <li className="row nav-item">
-            <img className='col-3' style={{height:"45px"}} src={re}  alt={re}/>
+            <img className='col-3' style={{height:"50px"}} src={re}  alt={re}/>
             <p className='col-9 footerLink'><span style={{fontWeight:"bold"}}>Return within 14days</span> of receiving your order</p>
           </li>
         </ul>
