@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Product from './components/Product'
 import Checkout from './components/Checkout'
 import ProductPage from './components/ProductPage'
+import Search from './components/Search'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       {/* <Product/> */}
       {/* <Checkout/> */}
       <ProductPage/>
+      {/* <Search/> */}
     </>
   )
 }
