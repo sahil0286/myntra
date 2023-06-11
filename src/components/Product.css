@@ -7,7 +7,15 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-bottom: 0;
 }
+
+@media (max-width: 576px) {
+    .productName {
+        font-size: 14px;
+    }
+  }
+
 .productDetail {
     color: #535766;
     font-size: 14px;
@@ -20,3 +28,46 @@
     font-weight: 400;
     display: block;
 }
+
+@media (max-width: 576px) {
+    .productName {
+        font-size: 12px;
+    }
+  }
+
+.mainPrice {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+@media (max-width: 576px) {
+    .mainPrice {
+        font-size: 12px;
+    }
+  }
+
+.discountedPrice {
+    font-weight: normal;
+    color: #7e818c;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+@media (max-width: 576px) {
+    .discountedPrice {
+        font-size: 10px;
+    }
+  }
+  
+  .discountRate {
+      font-weight: normal;
+      color: #FF9B6A;
+      font-size: 14px;
+    }
+    
+    @media (max-width: 576px) {
+        .discountRate {
+            font-size: 12px;
+        }
+      }
+    
