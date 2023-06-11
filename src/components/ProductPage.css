@@ -74,3 +74,48 @@
     border: none;
     border-top: 1px solid #EDEBEF;
   }
+
+  @media (max-width: 576px) {
+    .textSize {
+      font-size: 10px;
+    }}
+
+    @media (max-width: 576px) {
+    .selectBorder {
+      width: 92px
+    }
+  }
+
+    @media (max-width: 576px) {
+    .resetBtn {
+      border-radius: 20px;
+      border: 1px solid gray;
+      width: 77px
+    }
+  }
+
+    @media (max-width: 576px) {
+    .maxPriceSmallScreen {
+      width: 92px
+    }
+  }
+
+  .sortDropdownScreen {
+    margin-left: 80%;
+  }
+  
+  @media (max-width: 576px) {
+    .sortDropdownScreen {
+      margin-left: 55%;
+    }
+  }
+
+  .productCard {
+    margin: 10px;
+  }
+
+  @media (max-width: 576px) {
+    .productCard {
+      margin: 5px;
+    }
+  }

@@ -1,13 +1,14 @@
 import React from 'react'
-
+import "./Product.css"
 
 const Product = (prop) => {
   return (
     <>
         <img src={prop.image} className="card-img-top" alt={prop.image}/>
-        <h4 className=" productName">{prop.name}</h4>
-        <p className="productDetail">{prop.subcategory} from {prop.brand} brand in {prop.color} Color</p>
-        <p className="card-text" style={{fontWeight:"bold", fontSize:"14px"}}>Rs. {prop.price-prop.price*(prop.discount)/100} <span style={{fontWeight:"normal", color:"##7e818c" , fontSize:"12px", textDecoration: "line-through"}}>Rs. {prop.price}</span><span style={{fontWeight:"normal", color:"#FF9B6A" , fontSize:"14px"}}> ( {prop.discount}% OFF )</span></p>
+        <p className=" productName mt-2">{prop.name}</p>
+        <p className="productDetail mt-2">{prop.subcategory} from {prop.brand} brand in {prop.color} Color</p>
+
+        <p className="card-text mt-2 mainPrice">Rs. {prop.price-prop.price*(prop.discount)/100} <span className='discountedPrice'>Rs. {prop.price}</span><span className='discountRate' > ( {prop.discount}% OFF )</span></p>
     </>
   )
 }
