@@ -61,5 +61,26 @@
 
 }
 
-.cartDiv {
-}
+@media (max-width: 576px) {
+    .quentityCart {
+        font-size: 14px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .incBtn {
+        padding: 2px 9px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .decBtn {
+        padding: 2px 11px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .totalAmount {
+        font-size: 20px;
+    }
+  }
