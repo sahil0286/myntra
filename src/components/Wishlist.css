@@ -1,0 +1,36 @@
+.wishlistCount {
+    font-size: 18px;
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.wishlistCountNumber {
+    font-size: 18px;
+    font-weight: 400;
+    color: #282c3f;
+}
+
+.moveToCart {
+    color: #FF3E6C;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.moveToCart:hover {
+    padding: 2px 7px;
+    margin: 0px 0px;
+    background-color: #aff382;
+    border: 1px solid rgb(206, 200, 200);
+}
+
+@media (max-width: 576px) {
+    .moveToCart {
+        font-size: 10px;
+    }
+  }
+
+@media (max-width: 576px) {
+    .removBtnWishlist {
+        font-size: 10px;
+    }
+  }
