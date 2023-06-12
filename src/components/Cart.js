@@ -6,6 +6,7 @@ import "./Cart.css"
 import emptyBag from "../media/empty-bag.png"
 
 const Cart = () => {
+  
   const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
@@ -61,7 +62,6 @@ const Cart = () => {
     <>
     <Header/>
     <div className='mt-3 cartDiv'>
-      {/* <h1>Cart</h1> */}
       {cartItems.length === 0 ? (
         <div>
           <div className='d-flex justify-content-center '> 
@@ -81,11 +81,11 @@ const Cart = () => {
               <p className='productName'>{item.name}</p>
               <p className="productDetail mt-2">{item.subcategory} from {item.brand} brand in {item.color} Color</p>
               <p className="card-text mt-2 mainPrice">Rs. {item.price-item.price*(item.discount)/100} <span className='discountedPrice'>Rs. {item.price}</span><span className='discountRate' > ( {item.discount}% OFF )</span></p>
-              <p>Quantity: {item.quantity}</p>
-              <button className='removebtn mb-2' onClick={() => handleRemoveItem(item.id)}>Remove</button>
-              <button className="incBtn"onClick={() => handleIncreaseQuantity(item.id)}>+</button>
-              <button className="decBtn"onClick={() => handleDecreaseQuantity(item.id)}>-</button>
-              <p>Total: <span className='quentityIntoPrice'>Rs. {(item.price-item.price*(item.discount/100))* item.quantity}</span></p>
+              <p className='quentityCart'>Quantity: {item.quantity}</p>
+              <button className='removebtn mb-2 quentityCart' onClick={() => handleRemoveItem(item.id)}>Remove</button>
+              <button className="incBtn quentityCart"onClick={() => handleIncreaseQuantity(item.id)}>+</button>
+              <button className="decBtn quentityCart"onClick={() => handleDecreaseQuantity(item.id)}>-</button>
+              <p>Total: <span className='quentityIntoPrice quentityCart'>Rs. {(item.price-item.price*(item.discount/100))* item.quantity}</span></p>
             </div>
           </div>
           ))}
