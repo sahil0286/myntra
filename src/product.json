@@ -6,9 +6,9 @@
         "category": "men",
         "subcategory": "T-Shirts",
         "brand": "Rx",
-        "price": "100",
+        "price": "1000",
         "color": "red",
-        "discount": "10"
+        "discount": "30"
     },
     {
         "id": 2,

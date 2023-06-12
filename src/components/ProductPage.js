@@ -63,9 +63,8 @@ const searchResults = searchByName(value);
 
   const handleSortChange = (e) => {
     setsortValue(e.target.value);
-    console.log(e.target.value)
   };
-
+  
   const handleResetFilters = () => {
     setCategory('');
     setSubcategory('');
@@ -73,6 +72,7 @@ const searchResults = searchByName(value);
     setColor('');
     setPrice('');
     setDiscount('');
+    setsortValue("");
   };
 
   const filterProducts = () => {
@@ -89,7 +89,26 @@ const searchResults = searchByName(value);
   };
 
   const filteredProducts = filterProducts();
-  // console.log(filteredProducts)
+
+// SORT
+
+  if(sortValue==="pLH")
+  {
+    filteredProducts.sort((a, b) => parseInt(a.price-price*(discount/100)) - parseInt(b.price-price*(discount/100)));
+  }
+  else if(sortValue==="pHL")
+  {
+    filteredProducts.sort((a, b) => parseInt(b.price-price*(discount/100)) - parseInt(a.price-price*(discount/100)));
+  }
+  else if(sortValue==="dLH")
+  {
+    filteredProducts.sort((a, b) => parseInt(a.discount) - parseInt(b.discount));
+  }
+  else if(sortValue==="dHL")
+  {
+    filteredProducts.sort((a, b) => parseInt(b.discount) - parseInt(a.discount));
+  }
+  console.log(filteredProducts)
 
   return (
     <>
