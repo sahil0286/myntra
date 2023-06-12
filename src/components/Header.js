@@ -21,7 +21,7 @@ const Header = ({ onValueChange }) => {
 
   useEffect(() => {
     // Get the cart items from local storage
-    const cartItems = JSON.parse(localStorage.getItem('cart'));
+    const cartItems = JSON.parse(localStorage.getItem('cartItems'));
     // Calculate the total count of items in the cart
     const count = cartItems ? cartItems.length : 0;
     setCartItemCount(count);
@@ -131,8 +131,9 @@ const Header = ({ onValueChange }) => {
                 <li>
                   <a href="/" className="nav-link text-secondary mx-2 mt-2">
                     <HiOutlineShoppingBag className="bi d-block mx-auto" style={{ fontSize: '21px' }} />
-                    <span className="headerIcon">Bag</span>
-                    {cartItemCount > 0 && <span className="cartItemCount">{cartItemCount}</span>}
+                    {cartItemCount === 0 && <span className="headerIcon">Bag</span>}
+                    
+                    {cartItemCount > 0 && <span className="cartItemCount" style={{padding:"35%"}}>{cartItemCount}</span>}
                   </a>
                 </li>
               </ul>

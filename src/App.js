@@ -7,6 +7,8 @@ import Product from './components/Product'
 import Checkout from './components/Checkout'
 import ProductPage from './components/ProductPage'
 import Search from './components/Search'
+import Cart from './components/Cart'
+import Wishlist from './components/Wishlist'
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
       {/* <Checkout/> */}
       <ProductPage/>
       {/* <Search/> */}
+      {/* <Cart/> */}
+      {/* <Wishlist/> */}
     </>
   )
 }

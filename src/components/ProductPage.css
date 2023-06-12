@@ -90,7 +90,7 @@
     .resetBtn {
       border-radius: 20px;
       border: 1px solid gray;
-      width: 77px
+      width: 77px;
     }
   }
 
@@ -119,3 +119,41 @@
       margin: 5px;
     }
   }
+
+.addToCartBtn {
+  padding: 3px 7px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.addToCartBtn:hover {
+  background-color: #48fc48;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .addToCartBtn {
+    padding: 2px 5px;
+    font-size: 9px;
+  }
+}
+
+.wishlistBtn {
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+}
+
+.wishlistBtn:hover {
+  background-color: #fca6b2;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .wishlistBtn {
+    padding: 2px 5px;
+    font-size: 9px;
+  }
+}
