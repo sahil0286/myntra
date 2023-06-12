@@ -15,7 +15,42 @@ const ProductPage = () => {
   const [sortValue, setsortValue] = useState("")
 
 
+  // ***********************************************************************************
 
+  const handleAddToCart = (product) => {
+    // Retrieve existing cart items from local storage
+    const existingCartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+
+    // Add the new product to the cart
+    const isProductInCart = existingCartItems.some(item => item.id === product.id);
+    const updatedCartItems = isProductInCart ? existingCartItems : [...existingCartItems, product];
+    
+
+    // Store the updated cart items in local storage
+    localStorage.setItem('cartItems', JSON.stringify(updatedCartItems));
+
+    // Optionally, you can display a success message or update the UI to reflect the cart update
+  };
+
+  // ***********************************************************************************
+
+    const handleWishlist = (product) => {
+    // Retrieve existing cart items from local storage
+    const existingWishItems = JSON.parse(localStorage.getItem('wishItems')) || [];
+
+    // Add the new product to the cart
+    const isProductInWish = existingWishItems.some(item => item.id === product.id);
+    const updatedWishlistItems = isProductInWish ? existingWishItems : [...existingWishItems, product];
+    
+
+    // Store the updated cart items in local storage
+    localStorage.setItem('wishItems', JSON.stringify(updatedWishlistItems));
+
+    // Optionally, you can display a success message or update the UI to reflect the cart update
+  };
+
+
+  // ***********************************************************************************
 
   const [value, setValue] = useState('');
 
@@ -332,7 +367,7 @@ const searchResults = searchByName(value);
               </select>
             </div>
             <hr />
-            <button className='textSize resetBtn'  onClick={handleResetFilters} style={{borderRadius:"20px", border:"1px solid gray"}}>Reset Filters</button>
+            <button className='textSize resetBtn'  onClick={handleResetFilters} style={{borderRadius:"20px", border:"1px solid gray"}}>Clear Filters</button>
           </div>
         </div>
         <div className="col-8 col-lg-10 borderTop">
@@ -340,6 +375,10 @@ const searchResults = searchByName(value);
             {filteredProducts.map((product) => (
               <div className="col-6 col-lg-3 mt-3" key={product.id}>
                 <Product image={product.image} subcategory={product.subcategory} brand={product.brand} color={product.color} name={product.name} price={product.price} discount={product.discount} />
+                <div className='d-flex justify-content-between px-1'>
+                  <button className='addToCartBtn' onClick={() => handleAddToCart(product)}>Add to Cart</button>
+                  <button title='Wishlist' className='wishlistBtn' onClick={() => handleWishlist(product)}>❤️</button>
+                </div>
               </div>
             ))}
           </div>
