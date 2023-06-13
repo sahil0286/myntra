@@ -25,7 +25,21 @@ This is a Myntra clone project that aims to replicate the basic features and fun
 
 ## Screenshot
 
+![m1](https://github.com/sahil0286/myntra/assets/119412630/80ee233a-524d-4e1e-81bb-5b63f918c0cc)
 
+![m2](https://github.com/sahil0286/myntra/assets/119412630/c4b2ad8c-9bb1-4cf8-8107-6853c5cd5390)
+
+![m3](https://github.com/sahil0286/myntra/assets/119412630/85809758-f5b2-4d3e-89aa-261ffa190d9c)
+
+![m4](https://github.com/sahil0286/myntra/assets/119412630/f589a9cc-57b5-4eca-9b4f-e5a59c8c5ea8)
+
+![m5](https://github.com/sahil0286/myntra/assets/119412630/f43bf819-2922-4fdb-a333-2555f0276e88)
+
+![m6](https://github.com/sahil0286/myntra/assets/119412630/c23b03bd-13a3-4347-9b60-92550413152f)
+
+![m7](https://github.com/sahil0286/myntra/assets/119412630/49923624-47d6-4404-9b88-6fc6f6e2f29b)
+
+![m8](https://github.com/sahil0286/myntra/assets/119412630/67191dfb-c890-4a74-afe6-78366872a69c)
 
 ## Getting Started
 
