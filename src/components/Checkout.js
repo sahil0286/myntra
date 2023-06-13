@@ -1,4 +1,5 @@
 import { React , useState , useEffect} from 'react'
+import { Link } from 'react-router-dom';
 
 const Checkout = () => {
   
@@ -229,9 +230,9 @@ const Checkout = () => {
   <footer className="my-5 pt-5 text-body-secondary text-center text-small">
     <p className="mb-1">© 2017–2023 Company Name</p>
     <ul className="list-inline">
-      <li className="list-inline-item"><a href="/">Privacy</a></li>
-      <li className="list-inline-item"><a href="/">Terms</a></li>
-      <li className="list-inline-item"><a href="/">Support</a></li>
+      <li className="list-inline-item"><Link to="/">Privacy</Link></li>
+      <li className="list-inline-item"><Link to="/">Terms</Link></li>
+      <li className="list-inline-item"><Link to="/">Support</Link></li>
     </ul>
   </footer>
 </div>
