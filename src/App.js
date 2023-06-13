@@ -3,7 +3,6 @@ import Header from './components/Header'
 import MainAd from './components/MainAd'
 import OmgDeal from './components/OmgDeal'
 import Footer from './components/Footer'
-import Product from './components/Product'
 import Checkout from './components/Checkout'
 import ProductPage from './components/ProductPage'
 import Cart from './components/Cart'
@@ -43,8 +42,13 @@ const App = () => {
               <Cart/>
             </div>
           }/>
+          <Route path='/checkout' element=
+          {
+            <div>
+              <Checkout/>
+            </div>
+          }/>
 </Routes>
-      {/* <Checkout/> */}
     </>
   )
 }
