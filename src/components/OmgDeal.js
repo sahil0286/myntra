@@ -113,180 +113,182 @@ import v33 from "../media/v33.jpg"
 import v34 from "../media/v34.jpg"
 import v35 from "../media/v35.png"
 
+import { Link } from 'react-router-dom'
+
 const OmgDeal = () => {
   return (
     <>
         {/* Part 1 One Banner Two rows Ads with 10 Img */}
 
         <div style={{width:"100%"}}>
-            <a href="/" style={{width:"100%"}}>
+            <Link to="/product" style={{width:"100%"}}>
                 <img src={omgDeal} className='img-fluid.' style={{width:"100%",padding:"0px", margin:"0px"}} alt={omgDeal}/>
-            </a>
+            </Link>
         </div>
 
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s1} class="card-img-top" alt={s1}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s1} className="card-img-top" alt={s1}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s2} class="card-img-top" alt={s2}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s2} className="card-img-top" alt={s2}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s3} class="card-img-top" alt={s3}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s3} className="card-img-top" alt={s3}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s4} class="card-img-top" alt={s4}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s4} className="card-img-top" alt={s4}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s5} class="card-img-top" alt={s5}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s5} className="card-img-top" alt={s5}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s6} class="card-img-top" alt={s6}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s6} className="card-img-top" alt={s6}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s7} class="card-img-top" alt={s7}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s7} className="card-img-top" alt={s7}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s8} class="card-img-top" alt={s8}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s8} className="card-img-top" alt={s8}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s9} class="card-img-top" alt={s9}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s9} className="card-img-top" alt={s9}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s10} class="card-img-top" alt={s10}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s10} className="card-img-top" alt={s10}/>
+                </Link>
             </div>
         </div>
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>    
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/" style={{width:"100%"}}>
-                <img src={s11} class="card-img-top" alt={s11}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>    
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product" style={{width:"100%"}}>
+                <img src={s11} className="card-img-top" alt={s11}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s12} class="card-img-top" alt={s12}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s12} className="card-img-top" alt={s12}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s13} class="card-img-top" alt={s13}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s13} className="card-img-top" alt={s13}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s14} class="card-img-top" alt={s14}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s14} className="card-img-top" alt={s14}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s15} class="card-img-top" alt={s15}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s15} className="card-img-top" alt={s15}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s16} class="card-img-top" alt={s16}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s16} className="card-img-top" alt={s16}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s17} class="card-img-top" alt={s17}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s17} className="card-img-top" alt={s17}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s18} class="card-img-top" alt={s18}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s18} className="card-img-top" alt={s18}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s19} class="card-img-top" alt={s19}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s19} className="card-img-top" alt={s19}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={s20} class="card-img-top" alt={s20}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={s20} className="card-img-top" alt={s20}/>
+                </Link>
             </div>
         </div>
 
         {/* Part 2 One Banner Long and One row with 10 Ads */}
 
         <div style={{width:"100%"}}>
-            <a href="/" style={{width:"100%"}}>
+            <Link to="/product" style={{width:"100%"}}>
                 <img src={l1} className='img-fluid.' style={{width:"100%",padding:"0px", margin:"0px"}} alt={l1}/>
-            </a>
+            </Link>
         </div>
 
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m1} class="card-img-top" alt={m1}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m1} className="card-img-top" alt={m1}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m2} class="card-img-top" alt={m2}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m2} className="card-img-top" alt={m2}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m3} class="card-img-top" alt={m3}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m3} className="card-img-top" alt={m3}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m4} class="card-img-top" alt={m4}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m4} className="card-img-top" alt={m4}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m5} class="card-img-top" alt={m5}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m5} className="card-img-top" alt={m5}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m6} class="card-img-top" alt={m6}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m6} className="card-img-top" alt={m6}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m7} class="card-img-top" alt={m7}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m7} className="card-img-top" alt={m7}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m8} class="card-img-top" alt={m8}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m8} className="card-img-top" alt={m8}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m9} class="card-img-top" alt={m9}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m9} className="card-img-top" alt={m9}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={m10} class="card-img-top" alt={m10}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={m10} className="card-img-top" alt={m10}/>
+                </Link>
             </div>
         </div>
 
@@ -294,375 +296,375 @@ const OmgDeal = () => {
         {/*Part 3 One Banner Long and Two row with 10 Ads */}
 
         <div style={{width:"100%"}}>
-            <a href="/" style={{width:"100%"}}>
+            <Link to="/product" style={{width:"100%"}}>
                 <img src={k1} className='img-fluid.' style={{width:"100%",padding:"0px", margin:"0px"}} alt={k1}/>
-            </a>
+            </Link>
         </div>
 
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x1} class="card-img-top" alt={x1}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x1} className="card-img-top" alt={x1}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x2} class="card-img-top" alt={x2}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x2} className="card-img-top" alt={x2}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x3} class="card-img-top" alt={x3}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x3} className="card-img-top" alt={x3}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x4} class="card-img-top" alt={x4}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x4} className="card-img-top" alt={x4}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x5} class="card-img-top" alt={x5}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x5} className="card-img-top" alt={x5}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x6} class="card-img-top" alt={x6}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x6} className="card-img-top" alt={x6}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x7} class="card-img-top" alt={x7}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x7} className="card-img-top" alt={x7}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x8} class="card-img-top" alt={x8}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x8} className="card-img-top" alt={x8}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x9} class="card-img-top" alt={x9}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x9} className="card-img-top" alt={x9}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x10} class="card-img-top" alt={x10}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x10} className="card-img-top" alt={x10}/>
+                </Link>
             </div>
         </div>
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/" style={{width:"100%"}}>
-                <img src={x11} class="card-img-top" alt={x11}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product" style={{width:"100%"}}>
+                <img src={x11} className="card-img-top" alt={x11}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x12} class="card-img-top" alt={x12}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x12} className="card-img-top" alt={x12}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x13} class="card-img-top" alt={x13}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x13} className="card-img-top" alt={x13}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x14} class="card-img-top" alt={x14}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x14} className="card-img-top" alt={x14}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x15} class="card-img-top" alt={x15}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x15} className="card-img-top" alt={x15}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x16} class="card-img-top" alt={x16}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x16} className="card-img-top" alt={x16}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x17} class="card-img-top" alt={x17}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x17} className="card-img-top" alt={x17}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x18} class="card-img-top" alt={x18}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x18} className="card-img-top" alt={x18}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x19} class="card-img-top" alt={x19}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x19} className="card-img-top" alt={x19}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={x20} class="card-img-top" alt={x20}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={x20} className="card-img-top" alt={x20}/>
+                </Link>
             </div>
         </div>
 
         {/* Part 4 One Banner Long and One row with 10 Ads */}
 
         <div style={{width:"100%"}}>
-            <a href="/" style={{width:"100%"}}>
+            <Link to="/product" style={{width:"100%"}}>
                 <img src={h1} className='img-fluid.' style={{width:"100%",padding:"0px", margin:"0px"}} alt={h1}/>
-            </a>
+            </Link>
         </div>
 
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g1} class="card-img-top" alt={g1}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g1} className="card-img-top" alt={g1}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g2} class="card-img-top" alt={g2}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g2} className="card-img-top" alt={g2}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g3} class="card-img-top" alt={g3}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g3} className="card-img-top" alt={g3}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g4} class="card-img-top" alt={g4}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g4} className="card-img-top" alt={g4}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g5} class="card-img-top" alt={g5}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g5} className="card-img-top" alt={g5}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g6} class="card-img-top" alt={g6}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g6} className="card-img-top" alt={g6}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g7} class="card-img-top" alt={g7}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g7} className="card-img-top" alt={g7}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g8} class="card-img-top" alt={g8}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g8} className="card-img-top" alt={g8}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g9} class="card-img-top" alt={g9}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g9} className="card-img-top" alt={g9}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={g10} class="card-img-top" alt={g10}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={g10} className="card-img-top" alt={g10}/>
+                </Link>
             </div>
         </div>
 
         {/* Part 5 One Banner Long and Six row with 6 Ads */}
 
         <div style={{width:"100%"}}>
-            <a href="/" style={{width:"100%"}}>
+            <Link to="/product" style={{width:"100%"}}>
                 <img src={y1} className='img-fluid.' style={{width:"100%",padding:"0px", margin:"0px"}} alt={y1}/>
-            </a>
+            </Link>
         </div>
 
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v1} class="card-img-top" alt={v1}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v1} className="card-img-top" alt={v1}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v2} class="card-img-top" alt={v2}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v2} className="card-img-top" alt={v2}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v3} class="card-img-top" alt={v3}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v3} className="card-img-top" alt={v3}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v4} class="card-img-top" alt={v4}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v4} className="card-img-top" alt={v4}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v5} class="card-img-top" alt={v5}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v5} className="card-img-top" alt={v5}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v6} class="card-img-top" alt={v6}/>
-                </a>
-            </div>
-        </div>
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v7} class="card-img-top" alt={v7}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v8} class="card-img-top" alt={v8}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v9} class="card-img-top" alt={v9}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v10} class="card-img-top" alt={v10}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v11} class="card-img-top" alt={v11}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v12} class="card-img-top" alt={v12}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v6} className="card-img-top" alt={v6}/>
+                </Link>
             </div>
         </div>
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v13} class="card-img-top" alt={v13}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v7} className="card-img-top" alt={v7}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v14} class="card-img-top" alt={v14}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v8} className="card-img-top" alt={v8}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v15} class="card-img-top" alt={v15}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v9} className="card-img-top" alt={v9}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v16} class="card-img-top" alt={v16}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v10} className="card-img-top" alt={v10}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v17} class="card-img-top" alt={v17}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v11} className="card-img-top" alt={v11}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v18} class="card-img-top" alt={v18}/>
-                </a>
-            </div>
-        </div>
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v19} class="card-img-top" alt={v19}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v20} class="card-img-top" alt={v20}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v21} class="card-img-top" alt={v21}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v22} class="card-img-top" alt={v22}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v23} class="card-img-top" alt={v23}/>
-                </a>
-            </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v24} class="card-img-top" alt={v24}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v12} className="card-img-top" alt={v12}/>
+                </Link>
             </div>
         </div>
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v25} class="card-img-top" alt={v25}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v13} className="card-img-top" alt={v13}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v26} class="card-img-top" alt={v26}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v14} className="card-img-top" alt={v14}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v27} class="card-img-top" alt={v27}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v15} className="card-img-top" alt={v15}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v28} class="card-img-top" alt={v28}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v16} className="card-img-top" alt={v16}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v29} class="card-img-top" alt={v29}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v17} className="card-img-top" alt={v17}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v30} class="card-img-top" alt={v30}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v18} className="card-img-top" alt={v18}/>
+                </Link>
             </div>
         </div>
-        <div class="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v35} class="card-img-top" alt={v35}/>
-                </a>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v19} className="card-img-top" alt={v19}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v31} class="card-img-top" alt={v31}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v20} className="card-img-top" alt={v20}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v32} class="card-img-top" alt={v32}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v21} className="card-img-top" alt={v21}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v33} class="card-img-top" alt={v33}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v22} className="card-img-top" alt={v22}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v34} class="card-img-top" alt={v34}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v23} className="card-img-top" alt={v23}/>
+                </Link>
             </div>
-            <div class="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
-                <a href="/">
-                <img src={v35} class="card-img-top" alt={v35}/>
-                </a>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v24} className="card-img-top" alt={v24}/>
+                </Link>
+            </div>
+        </div>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v25} className="card-img-top" alt={v25}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v26} className="card-img-top" alt={v26}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v27} className="card-img-top" alt={v27}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v28} className="card-img-top" alt={v28}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v29} className="card-img-top" alt={v29}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v30} className="card-img-top" alt={v30}/>
+                </Link>
+            </div>
+        </div>
+        <div className="row" style={{width:"100%",padding:"0px", margin:"0px"}}>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v35} className="card-img-top" alt={v35}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v31} className="card-img-top" alt={v31}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v32} className="card-img-top" alt={v32}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v33} className="card-img-top" alt={v33}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v34} className="card-img-top" alt={v34}/>
+                </Link>
+            </div>
+            <div className="col" style={{width:"100%",padding:"0px", margin:"0px"}}>
+                <Link to="/product">
+                <img src={v35} className="card-img-top" alt={v35}/>
+                </Link>
             </div>
         </div>
     </>
