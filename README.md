@@ -45,7 +45,7 @@ This is a Myntra clone project that aims to replicate the basic features and fun
 
 1. Clone the repository: `git clone https://github.com/sahil0286/myntra.git`
 2. Install dependencies for the client : `npm install`
-3. Create accounnt on Auth0.com Update ` domain="your-domain" clientId="your-clientId" `
+3. Create accounnt on Auth0.com and Update index.html file ` domain="your-domain" clientId="your-clientId" `
 4. Start the frontend server: `npm start`
 5. Access the application in your browser at: `http://localhost:3000`
 
