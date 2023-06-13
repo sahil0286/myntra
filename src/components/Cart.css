@@ -84,3 +84,37 @@
         font-size: 20px;
     }
   }
+
+  .checkOutBtn {
+    margin-left: 87%;
+  }
+
+
+  @media (max-width: 576px) {
+    .checkOutBtn {
+    margin-left: 77%;
+    }
+  }
+
+  .cobtn {
+      border: 1px solid rgb(196, 190, 190);
+    }
+    
+    .cobtn:hover {
+      background-color: rgb(71, 245, 71);
+  }
+
+  .logInBeforeCheckOutBtn {
+    margin-left: 82%;
+  }
+
+
+  @media (max-width: 576px) {
+    .logInBeforeCheckOutBtn {
+    margin-left: 53%;
+    }
+  }
+
+  .logBeforebtn:hover { 
+    background-color: transparent;
+  }

@@ -5,7 +5,12 @@ import "./Product.css"
 import "./Cart.css"
 import emptyBag from "../media/empty-bag.png"
 
+import { Link } from 'react-router-dom';
+import { useAuth0 } from '@auth0/auth0-react';
+
 const Cart = () => {
+  
+  const { isAuthenticated} = useAuth0();
   
   const [cartItems, setCartItems] = useState([]);
 
@@ -14,6 +19,12 @@ const Cart = () => {
     const storedCartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
     setCartItems(storedCartItems);
   }, []);
+
+  const handleOrderPlace = () => {
+    setCartItems("");
+    // Update local storage with updated cart items
+    localStorage.setItem('cartItems', JSON.stringify(""));
+  };
 
   const handleRemoveItem = (itemId) => {
     const updatedCartItems = cartItems.filter((item) => item.id !== itemId);
@@ -83,14 +94,23 @@ const Cart = () => {
               <p className="card-text mt-2 mainPrice">Rs. {item.price-item.price*(item.discount)/100} <span className='discountedPrice'>Rs. {item.price}</span><span className='discountRate' > ( {item.discount}% OFF )</span></p>
               <p className='quentityCart'>Quantity: {item.quantity}</p>
               <button className='removebtn mb-2 quentityCart' onClick={() => handleRemoveItem(item.id)}>Remove</button>
-              <button className="incBtn quentityCart"onClick={() => handleIncreaseQuantity(item.id)}>+</button>
-              <button className="decBtn quentityCart"onClick={() => handleDecreaseQuantity(item.id)}>-</button>
+              <button className="incBtn quentityCart" onClick={() => handleIncreaseQuantity(item.id)}>+</button>
+              <button className="decBtn quentityCart" onClick={() => handleDecreaseQuantity(item.id)}>-</button>
               <p>Total: <span className='quentityIntoPrice quentityCart'>Rs. {(item.price-item.price*(item.discount/100))* item.quantity}</span></p>
             </div>
           </div>
           ))}
           <hr />
           <p className='text-end totalAmount'>Total Amount: <span className='totalAmountRs' >Rs.{calculateTotalPrice()}</span></p>
+          {isAuthenticated ? 
+          (
+            <Link className='checkOutBtn' to="/checkout"><button className='removebtn mb-2 quentityCart cobtn ' onClick={() => handleOrderPlace()}>Place Order</button></Link>
+          )
+          :
+          (
+            <Link className='logInBeforeCheckOutBtn'><button disabled className='removebtn mb-2 quentityCart logBeforebtn '>Log In before Placing Order</button></Link>
+          )}
+          
         </div>
       )}
       <Footer/>

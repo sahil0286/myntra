@@ -1,4 +1,9 @@
-.checkoutDiv {
-    padding-left: 15%;
-    padding-right: 15%;
+.thankYouLogo {
+    width: 500px;
 }
+
+@media (max-width: 576px) {
+    .thankYouLogo {
+      height: 145px;
+    }
+  }
