@@ -12,27 +12,29 @@ import MainAd_10 from "../media/MainAd_10.png"
 import MainAd_11 from "../media/MainAd_11.jpg"
 import MainAd_12 from "../media/MainAd_12.jpg"
 
+import { Link } from 'react-router-dom'
+
 const MainAd = () => {
   return (
     <>
-        <div class="container-fluid"style={{width:"100%", paddingLeft:"3%", marginTop:"20px"}}>
-            <div class=" row d-flex flex-wrap" style={{width:"100%"}}>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_1} style={{width:"100%"}} alt="MainAd_1" /></a>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_2} style={{width:"100%"}} alt="MainAd_2" /></a>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_3} style={{width:"100%"}} alt="MainAd_3" /></a>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_4} style={{width:"100%"}} alt="MainAd_4" /></a>
+        <div className="container-fluid"style={{width:"100%", paddingLeft:"3%", marginTop:"20px"}}>
+            <div className=" row d-flex flex-wrap" style={{width:"100%"}}>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_1} style={{width:"100%"}} alt="MainAd_1" /></Link>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_2} style={{width:"100%"}} alt="MainAd_2" /></Link>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_3} style={{width:"100%"}} alt="MainAd_3" /></Link>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_4} style={{width:"100%"}} alt="MainAd_4" /></Link>
             </div>
-            <div class="row d-flex flex-wrap" style={{width:"100%"}}>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_5} style={{width:"100%"}} alt="MainAd_5" /></a>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_6} style={{width:"100%"}} alt="MainAd_6" /></a>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_7} style={{width:"100%"}} alt="MainAd_7" /></a>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_8} style={{width:"100%"}} alt="MainAd_8" /></a>
+            <div className="row d-flex flex-wrap" style={{width:"100%"}}>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_5} style={{width:"100%"}} alt="MainAd_5" /></Link>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_6} style={{width:"100%"}} alt="MainAd_6" /></Link>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_7} style={{width:"100%"}} alt="MainAd_7" /></Link>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_8} style={{width:"100%"}} alt="MainAd_8" /></Link>
             </div>
-            <div class="row d-flex flex-wrap" style={{width:"100%"}}>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_9} style={{width:"100%"}} alt="MainAd_9" /></a>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_10} style={{width:"100%"}} alt="MainAd_10" /></a>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_11} style={{width:"100%"}} alt="MainAd_11" /></a>
-                <a class="col" style={{padding:"0"}} href='/'><img src={MainAd_12} style={{width:"100%"}} alt="MainAd_12" /></a>
+            <div className="row d-flex flex-wrap" style={{width:"100%"}}>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_9} style={{width:"100%"}} alt="MainAd_9" /></Link>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_10} style={{width:"100%"}} alt="MainAd_10" /></Link>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_11} style={{width:"100%"}} alt="MainAd_11" /></Link>
+                <Link className="col" style={{padding:"0"}} to="/product"><img src={MainAd_12} style={{width:"100%"}} alt="MainAd_12" /></Link>
             </div>
         </div>
     </>
