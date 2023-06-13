@@ -9,6 +9,8 @@ import insta from "../media/instagram.png"
 import yt from "../media/youtube.png"
 import "./Footer.css"
 
+import { Link } from 'react-router-dom'
+
 const Footer = () => {
   return (
     <>
@@ -18,38 +20,38 @@ const Footer = () => {
       <div className="col-6 col-md-2 mb-2">
         <p className='footerTitle' style={{fontWeight:"bold"}}>ONLINE SHOPPING</p>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Men</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Women</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Kids</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Home & Living</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Beauty</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Gift Cards</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Myntra Insider</a></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Men</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Women</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Kids</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Home & Living</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Beauty</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Gift Cards</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Myntra Insider</Link></li>
         </ul>
         <br />
         <p className='footerTitle' style={{fontWeight:"bold"}}>USEFUL LINKS</p>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Blog</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Site Map</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Careers</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Corporate Information</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Whitehat</a></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Blog</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Site Map</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Careers</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Corporate Information</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Whitehat</Link></li>
         </ul>
       </div>
 
       <div className="col-6 col-md-2 mb-2">
         <p className='footerTitle' style={{fontWeight:"bold"}}>ONLINE SHOPPING</p>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Contact Us</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">FAQ</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">T&C</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Terms Of Use</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Track Orders</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Shipping</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Cancellation</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Returns</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Privacy policy</a></li>
-          <li className="nav-item mb-2"><a href="/" className="footerLink nav-link p-0 text-body-secondary">Grievance Officer</a></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Contact Us</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">FAQ</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">T&C</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Terms Of Use</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Track Orders</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Shipping</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Cancellation</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Returns</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Privacy policy</Link></li>
+          <li className="nav-item mb-2"><Link to="/product" className="footerLink nav-link p-0 text-body-secondary">Grievance Officer</Link></li>
         </ul>
       </div>
 
@@ -87,9 +89,9 @@ const Footer = () => {
     <div className="d-flex flex-column flex-sm-row justify-content-between my-4 border-top">
       <p>© 2023 Created By <a href="https://www.linkedin.com/in/sahilfakir/" target='blank'>Sahil Fakir</a>, Inc. All rights reserved.</p>
       <ul className="list-unstyled d-flex">
-        <li className="ms-3"><a className="link-body-emphasis" href="/"><svg className="bi" width="24" height="24"><use href="#twitter"></use></svg></a></li>
-        <li className="ms-3"><a className="link-body-emphasis" href="/"><svg className="bi" width="24" height="24"><use href="#instagram"></use></svg></a></li>
-        <li className="ms-3"><a className="link-body-emphasis" href="/"><svg className="bi" width="24" height="24"><use href="#facebook"></use></svg></a></li>
+        <li className="ms-3"><Link className="link-body-emphasis" to="/product"><svg className="bi" width="24" height="24"><use href="#twitter"></use></svg></Link></li>
+        <li className="ms-3"><Link className="link-body-emphasis" to="/product"><svg className="bi" width="24" height="24"><use href="#instagram"></use></svg></Link></li>
+        <li className="ms-3"><Link className="link-body-emphasis" to="/product"><svg className="bi" width="24" height="24"><use href="#facebook"></use></svg></Link></li>
       </ul>
     </div>
   </footer>
