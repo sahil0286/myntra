@@ -6,23 +6,45 @@ import Footer from './components/Footer'
 import Product from './components/Product'
 import Checkout from './components/Checkout'
 import ProductPage from './components/ProductPage'
-import Search from './components/Search'
 import Cart from './components/Cart'
 import Wishlist from './components/Wishlist'
+
+import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
     <>
-      {/* <Header/>
-      <MainAd/>
-      <OmgDeal/>
-      <Footer/> */}
-      {/* <Product/> */}
+
+<Routes>
+          <Route path='/' element=
+          {
+            <div>
+              <Header/>
+              <MainAd/>
+              <OmgDeal/>
+              <Footer/>
+            </div>
+          }/>
+          <Route path='/product' element=
+          {
+            <div>
+              <ProductPage/>
+            </div>
+          }/>
+          <Route path='/wishlist' element=
+          {
+            <div>
+              <Wishlist/>
+            </div>
+          }/>
+          <Route path='/cart' element=
+          {
+            <div>
+              <Cart/>
+            </div>
+          }/>
+</Routes>
       {/* <Checkout/> */}
-      <ProductPage/>
-      {/* <Search/> */}
-      {/* <Cart/> */}
-      {/* <Wishlist/> */}
     </>
   )
 }

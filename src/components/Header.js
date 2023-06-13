@@ -6,6 +6,7 @@ import { HiOutlineShoppingBag } from 'react-icons/hi';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { CiLogout } from 'react-icons/ci';
 import { useAuth0 } from '@auth0/auth0-react';
+import { Link } from 'react-router-dom';
 
 const Header = ({ onValueChange }) => {
   const { loginWithRedirect, isAuthenticated, logout, user } = useAuth0();
@@ -31,9 +32,9 @@ const Header = ({ onValueChange }) => {
     <>
       <nav className="navbar navbar-expand-lg headerShadow sticky-top" style={{ backgroundColor: 'white' }}>
         <div className="container-fluid headerContainer" style={{ paddingLeft: '0px' }}>
-          <a className="navbar-brand d-flex align-items-center mb-2 mb-lg-0 text-decoration-none headerLogo" href="/">
+          <Link className="navbar-brand d-flex align-items-center mb-2 mb-lg-0 text-decoration-none headerLogo" to="/">
             <img src={logo} alt="logo" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -49,34 +50,34 @@ const Header = ({ onValueChange }) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a href="/" className="nav-link headerNameStyle">
+                <Link to="/product" className="nav-link headerNameStyle">
                   MEN
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link headerNameStyle">
+                <Link to="/product" className="nav-link headerNameStyle">
                   WOMEN
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link headerNameStyle">
+                <Link to="/product" className="nav-link headerNameStyle">
                   KIDS
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link headerNameStyle">
+                <Link to="/product" className="nav-link headerNameStyle">
                   HOME & LIVING
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link headerNameStyle">
+                <Link to="/product" className="nav-link headerNameStyle">
                   BEAUTY
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link headerNameStyle">
+                <Link to="/product" className="nav-link headerNameStyle">
                   STUDIO <sup className="textSupNew">NEW</sup>
-                </a>
+                </Link>
               </li>
             </ul>
             <form className="d-flex align-items-center navbar-nav mb-2 mb-lg-0" role="search">
@@ -123,18 +124,18 @@ const Header = ({ onValueChange }) => {
                   </li>
                 )}
                 <li>
-                  <a href="/" className="nav-link text-secondary mx-2 mt-2">
+                  <Link to="/wishlist" className="nav-link text-secondary mx-2 mt-2">
                     <AiOutlineHeart className="bi d-block mx-auto" style={{ fontSize: '20px' }} />
                     <span className="headerIcon">Wishlist</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/" className="nav-link text-secondary mx-2 mt-2">
+                  <Link to="/cart" className="nav-link text-secondary mx-2 mt-2">
                     <HiOutlineShoppingBag className="bi d-block mx-auto" style={{ fontSize: '21px' }} />
                     {cartItemCount === 0 && <span className="headerIcon">Bag</span>}
                     
                     {cartItemCount > 0 && <span className="cartItemCount" style={{padding:"35%"}}>{cartItemCount}</span>}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </form>
