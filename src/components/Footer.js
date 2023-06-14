@@ -88,11 +88,11 @@ const Footer = () => {
 
     <div className="d-flex flex-column flex-sm-row justify-content-between my-4 border-top">
       <p>© 2023 Created By <a href="https://www.linkedin.com/in/sahilfakir/" target='blank'>Sahil Fakir</a>, Inc. All rights reserved.</p>
-      <ul className="list-unstyled d-flex">
+      {/* <ul className="list-unstyled d-flex">
         <li className="ms-3"><Link className="link-body-emphasis" to="/product"><svg className="bi" width="24" height="24"><use href="#twitter"></use></svg></Link></li>
         <li className="ms-3"><Link className="link-body-emphasis" to="/product"><svg className="bi" width="24" height="24"><use href="#instagram"></use></svg></Link></li>
         <li className="ms-3"><Link className="link-body-emphasis" to="/product"><svg className="bi" width="24" height="24"><use href="#facebook"></use></svg></Link></li>
-      </ul>
+      </ul> */}
     </div>
   </footer>
   </div>
